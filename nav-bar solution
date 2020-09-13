@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 30px;
+  background: darkcyan;
+  width: 100%;
+  padding: 0 20px;
+  color: white;
+  opacity: 0.2;
+}
+
+.content {
+  margin-top: 50px;
+  background: #ddd;
+  height: calc(100vh - 50px);
+  overflow: auto;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.article {
+  height: 200px;
+  width: 100%;
+  background: #ccc;
+  margin: 12px 0;
+}
+
+
+
+
+
+<div class="navbar">Navbar</div>
+<div class="content">
+  <div class="article"></div>
+  <div class="article"></div>
+  <div class="article"></div>
+  <div class="article"></div>
+  <div class="article"></div>
+</div>
